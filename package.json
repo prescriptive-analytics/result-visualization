@@ -1,0 +1,59 @@
+{
+  "name": "covid-kdd-viz",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.11",
+    "@material-ui/icons": "^4.9.1",
+    "deck.gl": "^8.1.2",
+    "dotenv": "^8.2.0",
+    "highcharts": "^8.0.4",
+    "highcharts-react-official": "^3.0.0",
+    "lodash": "^4.17.15",
+    "papaparse": "^5.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-map-gl": "^5.2.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1"
+  },
+  "devDependencies": {
+    "@danmarshall/deckgl-typings": "^3.4.8",
+    "@types/jest": "^24.0.0",
+    "@types/lodash": "^4.14.150",
+    "@types/node": "^12.0.0",
+    "@types/papaparse": "^5.0.3",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-map-gl": "^5.2.3",
+    "@types/react-router-dom": "^5.1.4",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "cd ./node_modules/@danmarshall/deckgl-typings && yarn postinstall"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "author": {
+    "name": "Chrysovalantis Anastasiou",
+    "email": "canastas@usc.edu",
+    "url": "https://canastas.info"
+  }
+}

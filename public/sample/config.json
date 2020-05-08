@@ -1,0 +1,26 @@
+{
+	"strategy": "0000000",
+	"daysToTrack": 5,
+	"startIntervene": 1,
+	"regionInfectedThresForStrangerContact": 1,
+	"daysToTreat": 1e9,
+	"daysToIsolate": 15,
+	"daysToQuarantine": 15,
+	"daysToConfine": 15,
+	"seed": 1,
+	"dir": "./examples",
+	"predefinedStrategy": true,
+	"saveReplay": false,
+	"results_dir": "results",
+	"save_replay_dir": "",
+	"pAcq": 0.0015,
+	"pStranger": 0.000003,
+	"round": 0,
+	"location_file": "w_small_visual.json",
+
+	"population": 10000,
+	"total_step": 840,
+	"regionsFile": "sample/w_small_5.csv",
+	"dailyStatsFile": "sample/daily_stats_0000000_1_5_15_15_15_1.csv",
+	"regionStatsFile": "sample/region_stats_0000000_1_5_15_15_15_1.csv"
+}
